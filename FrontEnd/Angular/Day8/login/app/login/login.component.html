@@ -1,0 +1,6 @@
+<h3>login Form</h3>
+<form>
+        <input #userName name="username" type="text" placeholder="Enter Username"><br>
+        <input #password name="password" type="password" placeholder="Enter password">
+    <button value="login" (click)="onClick(userName.value,password.value)" >login</button>
+</form>
